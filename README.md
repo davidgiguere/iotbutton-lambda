@@ -6,6 +6,7 @@ I made a few small changes to the standard AWS IoT Lambda function for SNS found
 
 1. Log in to AWS Lambda, make a copy of the existing out-of-the-box index.js file associated with your new AWS IoT Button Lambda function.
 2. Copy the contents of this index.js to your index.js (you did make that copy, right?) and make changes to the following lines:
+   
    const EMAIL_ADDRESS = 'YOUR-EMAIL-ADDRESS'; // change to your email address
    const singleClick = 'THE TEXT TO DISPLAY FOR YOUR SINGLE clickType'; //change to your content within single quotes
    const doubleClick = 'THE TEXT TO DISPLAY FOR YOUR DOUBLE clickType';  //change to your content within single quotes
