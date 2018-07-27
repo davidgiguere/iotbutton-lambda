@@ -15,8 +15,8 @@ I made a few small changes to the standard AWS IoT Lambda function for SNS found
    
    const longClick = 'THE TEXT TO DISPLAY FOR YOUR LONG clickType';  //change to your content within single quotes
    
-   const subject = `YOUR-EMAIL-SUBJECT-LINE`; //change to your content within single quotes
+   const subject = 'YOUR-EMAIL-SUBJECT-LINE'; //change to your content within single quotes
    
-   const bodyText = `YOUR BODY TEXT MAY SPAN MULTIPLE LINES AND WILL DISPLAY THE CONTENT FOUND IN THE var nomAlert AND THE const payload FOUND ABOVE. TO DISPLAY THE CONTENT OF nomAlert, USE ${nomAlert} AND TO DISPLAY THE CONTENT OF payload USE ${payload}`;  //change to your content within single quotes
+   const bodyText = 'YOUR BODY TEXT MAY SPAN MULTIPLE LINES AND WILL DISPLAY THE CONTENT FOUND IN THE var nomAlert AND THE const payload FOUND ABOVE. TO DISPLAY THE CONTENT OF nomAlert, USE ${nomAlert} AND TO DISPLAY THE CONTENT OF payload USE ${payload}';  //change to your content within single quotes
  3. Save and test your new Lambda function.
  4. Be joyful!
